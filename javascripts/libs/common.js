@@ -2295,7 +2295,6 @@ updateoverlayresize();
 })(jQuery);
 
 
-
 /*
  * Backstretch
  * http://srobbin.com/jquery-plugins/backstretch/

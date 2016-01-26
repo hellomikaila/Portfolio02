@@ -1,12 +1,3 @@
-/*
-* OTTO - A premium web template from Designova
-* Build: March 2015;
-* Author: Designova, http://www.designova.net
-* Copyright (C) 2015 Designova Digital IN.
-* This is a premium product. For licensing queries please contact info@Designova.net
-*/
-
-
 /* Table of contents
 –––––––––––––––––––––––––––––––––––––––––––––––––– 
 - 1. Common
@@ -16,6 +7,47 @@
 - 5. Pages
 - 6. Utilities
 */
+
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('../fonts/quicksand-bold-webfont.eot');
+    src: url('../fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-bold-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-bold-webfont.woff') format('woff'),
+         url('../fonts/quicksand-bold-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-bold-webfont.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('../fonts/quicksand-light-webfont.eot');
+    src: url('../fonts/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-light-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-light-webfont.woff') format('woff'),
+         url('../fonts/quicksand-light-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 /* 1. Common
@@ -48,13 +80,14 @@ a:focus {
   }
 }
 .welcome-heading h1 span{
-     font-size: 32px;
+    font-size: 32px;
     letter-spacing: 8px;
     line-height: 64px;
     text-transform: uppercase;
     padding: 20px;
     padding-left: 28px;
-    border: solid 4px #222;
+    border: solid 4px #e6b115;
+    color: #e6b115;
 }
 .main-heading > span{
   font-size: 32px;
@@ -394,44 +427,16 @@ footer.mastfoot{
   position: relative;
 }
 footer.mastfoot .row{
-  padding: 60px 0px;
+  padding: 15px 20px 60px 0px;
 }
-.social-wrap{
-  padding: 0;
-}
-.foot-social {
-    list-style: none outside none;
-    padding: 0;
-}
-.foot-social li {
-    display: inline-block;
-    margin-left: 2px;
-    margin-bottom: 0;
-}
-.foot-social li a > img {
-  width: 32px;
-    opacity: 1;
-  -webkit-transition: all .8s linear;
-     -moz-transition: all .8s linear;
-    -ms-transition: all .8s linear;
-     -o-transition: all .8s linear;
-      transition: all .8s linear;
-}
-.foot-social li a > img:hover {
-    opacity: 0.5;
-  -webkit-transition: all .8s linear;
-     -moz-transition: all .8s linear;
-    -ms-transition: all .8s linear;
-     -o-transition: all .8s linear;
-      transition: all .8s linear;
-}
+
 .credits {
     padding: 0;
-    text-align: left;
+    text-align: right;
 }
 .credits p{
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 10px;
+  line-height: 12px;
   letter-spacing: 1px;
 }
 
@@ -445,8 +450,8 @@ nav.mastnav ul{
   padding: 0;
 }
 nav.mastnav a{
-  font-size: 12px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 36px;
   letter-spacing: 2px;
 	display: block;
 	opacity: 1;
@@ -518,7 +523,6 @@ nav.mastnav a:focus{
 }
 .mastwrap.spaced-left{
   margin-left: 240px;
-  margin-right: 100px;
   -webkit-transition: all .4s ease-in-out;
      -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
@@ -678,7 +682,7 @@ nav.mastnav a:focus{
 }
 
  .works-item a{
-       	border: solid 6px;
+       	border: none;
             opacity: 0;
             display: block;
             width: 100%;
@@ -697,7 +701,7 @@ nav.mastnav a:focus{
         .works-item a:hover{
             text-decoration: none !important;
        	background: rgba(255,255,255,0.9);
-            opacity:1;
+            opacity:0.8;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
                 -ms-transition: all .4s ease-in-out;
@@ -860,7 +864,7 @@ nav.mastnav a:focus{
 } 
 
 .caption h1{
-  font-size: 48px;
+  font-size: 44px;
   line-height: 58px;
   letter-spacing: 8px;
   text-transform: uppercase;
@@ -883,10 +887,11 @@ nav.mastnav a:focus{
   margin-bottom: 10px;
 }
 .liner{
-  width: 80px;
+  width: 210px;
   height: 4px;
   display: inline-block;
-}       
+}   
+  
 .services-item i{
   font-size: 48px;
   line-height: 48px;
@@ -1341,60 +1346,6 @@ fieldset h1 {
   line-height: 46px;
 }
 
-/*PRICING TABLES*/
-  /*Pricing table and price blocks*/
-    .pricing_table {
-      padding: 0;
-      margin: 0;
-      line-height: 150%; 
-      font-size: 12px; 
-      padding-top: 10px;
-    }
-    
-    .price_block {
-      text-align: center; 
-      width: 100%; 
-      color: #fff; 
-      float: left; 
-      list-style-type: none; 
-      transition: all 0.25s; 
-      position: relative; 
-      box-sizing: border-box;
-      
-      margin-bottom: 10px; 
-      border-bottom: 1px solid transparent; 
-    }
-    
-    /*Price heads*/
-    .pricing_table h3 {
-      text-transform: uppercase; 
-      padding: 5px 0; 
-      margin: 10px 0 1px 0;
-      font-size: 14px;
-      line-height: 21px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-    
-    /*Price tags*/
-    .price {
-      display: table; 
-      width: 100%; 
-      height: 90px; 
-    }
-    .price_figure {
-      font-size: 24px; 
-      text-transform: uppercase; 
-      vertical-align: middle; 
-      display: table-cell;
-    }
-    .price_number {
-      font-weight: bold; 
-      display: block;
-    }
-    .price_tenure {
-      font-size: 11px; 
-    }
     
     /*Features*/
     .features {

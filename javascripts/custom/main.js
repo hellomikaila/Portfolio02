@@ -486,13 +486,13 @@ function initBGVimeo() {
                       //shows BG video only if .intro03 div is present
                         if( !device.tablet() && !device.mobile() ) {
                         /* plays the BG Vimeo or Youtube video if non-mobile device is detected*/ 
-                        $("body").okvideo({ source: '112539263', //set your video source here
+                        $("body").okvideo({ source: '119022081', //set your video source here
                                         autoplay:true,
                                         loop: true,
                                         highdef:true,
                                         hd:true, 
                                         adproof: true,
-                                        volume:50 // control the video volume by setting a value from 0 to 99
+                                        volume: 0 // control the video volume by setting a value from 0 to 99
                                      });
                                     
                         } else {
