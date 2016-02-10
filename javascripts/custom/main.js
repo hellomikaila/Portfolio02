@@ -494,6 +494,7 @@ function initBGVimeo() {
                                         adproof: true,
                                         volume: 0 // control the video volume by setting a value from 0 to 99
                                      });
+
                                     
                         } else {
                             
@@ -771,6 +772,5 @@ function initContactForm() {
 
 })();
 //  global wrapper $(function ($)  : ends
-
 
 

@@ -201,7 +201,7 @@ th {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -915,12 +915,10 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #2B65BF;
   text-decoration: none;
 }
 a:hover,
-a:focus {
-  color: #2B65BF;
+a:focus {.0
   text-decoration: none;
 }
 a:focus {

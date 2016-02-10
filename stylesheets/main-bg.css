@@ -2,24 +2,26 @@
 /*This is main CSS file that intializes BG Images used in this template*/
 /*--------------------------------------------------------------------------*/
 .intro-05-item-01{
-	background-image: url('../images/play/novacancyrva.png');
+	background-image: url('../images/play/holditdown.png');
 }
 .intro-05-item-02{
 	background-image: url('../images/play/pami.png');
 }
 .intro-05-item-03{
-	background-image: url('../images/play/03.jpg');
+	background-image: url('../images/play/fartosaurus.png');
+}
+.intro-05-item-04{
+	background-image: url('../images/play/novacancyrva.png');
 }
 
 .intro-06{
 	background-image: url('../images/bg/12.jpg');
 }
+
 .about-bg{
-	background-image: url('../images/bg/15.jpg');
+	background-image: url('../images/bg/background.jpg');
 }
-.promo{
-	background-image: url('../images/bg/12.jpg');0
-}
+
 .project-01-carousel-item-01{
 	background-image: url('../images/project/project01/01.jpg');
 }
@@ -40,5 +42,5 @@
 }
 /*Mobile Menu Logo*/
 .menu-collapser {
-    background-image: url('../images/logo.png');
+    background-image: url('../images/logo.svg');
 }

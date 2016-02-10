@@ -8,48 +8,6 @@
 - 6. Utilities
 */
 
-
-@font-face {
-    font-family: 'quicksandregular';
-    src: url('../fonts/quicksand-regular-webfont.eot');
-    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
-         url('../fonts/quicksand-regular-webfont.woff') format('woff'),
-         url('../fonts/quicksand-regular-webfont.ttf') format('truetype'),
-         url('../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'quicksandbold';
-    src: url('../fonts/quicksand-bold-webfont.eot');
-    src: url('../fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quicksand-bold-webfont.woff2') format('woff2'),
-         url('../fonts/quicksand-bold-webfont.woff') format('woff'),
-         url('../fonts/quicksand-bold-webfont.ttf') format('truetype'),
-         url('../fonts/quicksand-bold-webfont.svg#quicksandbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'quicksandlight';
-    src: url('../fonts/quicksand-light-webfont.eot');
-    src: url('../fonts/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quicksand-light-webfont.woff2') format('woff2'),
-         url('../fonts/quicksand-light-webfont.woff') format('woff'),
-         url('../fonts/quicksand-light-webfont.ttf') format('truetype'),
-         url('../fonts/quicksand-light-webfont.svg#quicksandlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
 /* 1. Common
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 html, body{
@@ -86,8 +44,8 @@ a:focus {
     text-transform: uppercase;
     padding: 20px;
     padding-left: 28px;
-    border: solid 4px #e6b115;
-    color: #e6b115;
+    border: solid 4px #fff;
+
 }
 .main-heading > span{
   font-size: 32px;
@@ -701,29 +659,14 @@ nav.mastnav a:focus{
         .works-item a:hover{
             text-decoration: none !important;
        	background: rgba(255,255,255,0.9);
-            opacity:0.8;
+            opacity:1;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
                 -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
-        .info a:hover{
-            cursor: url("../images/plus.png") 40 40, crosshair;
-            -webkit-transition: all .4s ease-in-out;
-               -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
-                 -o-transition: all .4s ease-in-out;
-                    transition: all .4s ease-in-out;
-        }
-        .zoom a:hover{
-            cursor: url("../images/zoom.png") 40 40, crosshair;
-            -webkit-transition: all .4s ease-in-out;
-               -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
-                 -o-transition: all .4s ease-in-out;
-                    transition: all .4s ease-in-out;
-        }
+
         .works-item-inner{
             text-align: left;
             padding: 30px;
@@ -1512,5 +1455,4 @@ fieldset h1 {
 	background:url(../images/poster.jpg) center center no-repeat !important;
 	background-size: cover !important;
 }
-
 
