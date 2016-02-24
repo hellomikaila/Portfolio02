@@ -42,11 +42,11 @@ a:focus {
     letter-spacing: 8px;
     line-height: 64px;
     text-transform: uppercase;
-    padding: 20px;
-    padding-left: 28px;
-    border: solid 4px #fff;
+    padding: 20px 0px
+    color: #FFFFFF;
 
 }
+
 .main-heading > span{
   font-size: 32px;
   line-height: 39px;
@@ -1272,8 +1272,9 @@ fieldset h1 {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  padding: 40px 0;
+  padding: 10px 0px 50px 0px;
   text-align: center;
+
 }
 .project-nav-icon-wrap li{
   display: inline-block;
@@ -1354,7 +1355,7 @@ fieldset h1 {
 /* 6. Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .add-top{
-  margin-top: 120px;
+  margin-top: 100px;
 }
 .add-top-half{
   margin-top: 60px;
@@ -1456,3 +1457,98 @@ fieldset h1 {
 	background-size: cover !important;
 }
 
+/* mikaila custom classes and etc... */
+
+
+h2.projectSubheader {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+p.projectPara {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+article.projectOverlay {
+  margin: 0px 40px;
+
+}
+
+h1.projectHeader {
+  color: #ffffff;
+  font-size: 72px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+p.projectParts {
+  font-size: 18px;
+  font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  margin-top: -10px;
+  text-transform: lowercase;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.valign-top{
+  position: relative;
+    top: 80%;
+    -webkit-transform: translateY(-80%);
+    -ms-transform: translateY(-80%);
+    -o-transform: translateY(-80%);
+    transform: translateY(-80%);
+}
+
+.liner-title{
+  width: 250px;
+  height: 4px;
+  display: inline-block;
+  margin: 10px 0px;
+} 
+
+.triangleThing {
+  padding: 0px 10px;
+}
+
+.endCredits {
+  text-transform: 
+}
+
+.about-me-heading h1 span{
+    font-size: 48px;
+    letter-spacing: 8px;
+    line-height: 64px;
+    text-transform: lowercase;
+    padding: 20px 0px;
+    color: #FFFFFF;
+    font-weight: 600;
+
+}
+
+span#mikaila-about {
+font-style: italic;
+text-transform: uppercase;
+font-weight: 200;
+}
+
+span.team-credits {
+  font-weight: bold;
+}
+
+.valign-right{
+  position: relative;
+    top: 80%;
+    -webkit-transform: translateY(-15%);
+    -ms-transform: translateY(-15%);
+    -o-transform: translateY(-15%);
+    transform: translateY(-15%);
+    right: -25%;
+}
+
+a.vbox-item {
+  background-color: #FFFFFF !important;
+}

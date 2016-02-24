@@ -1,42 +1,15 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="268.832px" height="268.832px" viewBox="0 0 268.832 268.832" style="enable-background:new 0 0 268.832 268.832;"
-	 xml:space="preserve">
-<g>
-	<path d="M265.171,125.577l-80-80c-4.881-4.881-12.797-4.881-17.678,0c-4.882,4.882-4.882,12.796,0,17.678l58.661,58.661H12.5
-		c-6.903,0-12.5,5.597-12.5,12.5c0,6.902,5.597,12.5,12.5,12.5h213.654l-58.659,58.661c-4.882,4.882-4.882,12.796,0,17.678
-		c2.44,2.439,5.64,3.661,8.839,3.661s6.398-1.222,8.839-3.661l79.998-80C270.053,138.373,270.053,130.459,265.171,125.577z"/>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="424.33" height="84.6" viewBox="0 0 424.33 84.6">
+  <title>next</title>
+  <g>
+    <g>
+      <path d="M15,15.06V86.69H7.84V3.31h7.25L67.34,73.94V3.31h7.13V86.69h-7Z" transform="translate(-7.84 -2.7)"/>
+      <path d="M95.21,3.31h52.88v6.5H102.34V40.69h44.88v6.5H102.34v33h45.75v6.5H95.21V3.31Z" transform="translate(-7.84 -2.7)"/>
+      <path d="M195.59,49.06l-29,37.63h-9l33.63-42.75L159.46,3.31h9.13l27,35.38L222.71,3.31h9l-31.62,40.5,33.5,42.88h-8.87Z" transform="translate(-7.84 -2.7)"/>
+      <path d="M267.58,9.81H240.33V3.31h61.75v6.5H274.83V86.69h-7.25V9.81Z" transform="translate(-7.84 -2.7)"/>
+    </g>
+    <g>
+      <polygon points="382.02 0 424.32 42.3 382.02 84.6 377.31 79.89 414.92 42.3 377.31 4.71 382.02 0"/>
+      <polygon points="345.75 0 388.04 42.3 345.75 84.6 341.04 79.89 378.63 42.3 341.04 4.71 345.75 0"/>
+    </g>
+  </g>
 </svg>

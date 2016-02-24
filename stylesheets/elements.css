@@ -18,8 +18,8 @@ Image credits: unsplash.com
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
-    background-color: #FF2238;
-    border-color: #FF2238;
+    background-color: #24C2B8;
+    border-color: #24C2B8;
     opacity: .7;
 }
 .fade-carousel .carousel-indicators > li.active {

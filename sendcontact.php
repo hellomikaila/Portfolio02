@@ -2,8 +2,8 @@
 
 // Define some constants
 define( "RECIPIENT_NAME", "Mikaila Weaver" ); //UPDATE THIS TO YOUR NAME
-define( "RECIPIENT_EMAIL", "me@mikailaweaver.com" ); //UPDATE THIS TO YOUR EMAIL ID
-define( "EMAIL_SUBJECT", "Hi there" ); //UPDATE THIS TO YOUR SUBJECT
+define( "RECIPIENT_EMAIL", "hello@mikai.la" ); //UPDATE THIS TO YOUR EMAIL ID
+define( "EMAIL_SUBJECT", "Hi from your Website" ); //UPDATE THIS TO YOUR SUBJECT
 
 // Read the form values
 $success = false;
